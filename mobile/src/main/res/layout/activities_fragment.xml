@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="8dp"
+    android:background="@android:color/background_light"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/XPLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_EXP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center_horizontal"
+            android:text="Activity Points "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/var_EXP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:paddingLeft="8dp"
+            android:text="0000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/XPLayout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activities"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:background="@android:color/background_light"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="ACTIVITIES"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/totDist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Distance" />
+
+            <TextView
+                android:id="@+id/var_totDist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="199 miles" />
+
+            <TextView
+                android:id="@+id/totSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Steps" />
+
+            <TextView
+                android:id="@+id/var_totSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="99199 steps" />
+
+            <TextView
+                android:id="@+id/txt_avgSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg Steps/Day" />
+
+            <TextView
+                android:id="@+id/var_avgSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="500" />
+
+
+            <TextView
+                android:id="@+id/txt_LastActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Active Day" />
+
+            <TextView
+                android:id="@+id/var_LastActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="Yesterday" />
+
+            <TextView
+                android:id="@+id/txt_ConsecActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consecutive Days Active"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/var_ConsecActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/txt_totActTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Active Time" />
+
+            <TextView
+                android:id="@+id/var_actTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="700 hours" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stats_Today"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:background="@android:color/background_light"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="TODAY"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txt_StepsToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps Today" />
+
+            <TextView
+                android:id="@+id/var_StepsToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="500" />
+
+            <TextView
+                android:id="@+id/txt_ActTimeToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Time Today" />
+
+            <TextView
+                android:id="@+id/var_actTimeToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8sp"
+                android:text="20 min" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

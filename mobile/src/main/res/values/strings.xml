@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FitGuy</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="txt_level">Lvl</string>
+    <string name="var_level">20</string>
+    <string name="var_title">Newb</string>
+    <string name="fit_guy_image">Fit Guy Image</string>
+    <string name="heart_icon_image">Heart Icon Image</string>
+    <string name="var_Heart">5</string>
+    <string name="txt_heart">Heart</string>
+    <string name="var_Mind">5</string>
+    <string name="txt_Mind">Mind</string>
+    <string name="var_Power">5</string>
+    <string name="txt_power">Power</string>
+    <string name="var_Speed">5</string>
+    <string name="txt_speed">Speed</string>
+    <string name="speed_icon_image">Speed Icon Image</string>
+    <string name="power_icon_image">Power Icon Image</string>
+    <string name="mind_icon_image">Mind Icon Image</string>
+</resources>
